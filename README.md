@@ -8,6 +8,14 @@ Sistem Informasi Manajemen Masjid (SIMasjid) adalah platform web komprehensif ya
 
 ---
 
+## 📸 Preview Tampilan Aplikasi (HD)
+
+<p align="center">
+  <img src="screenshots/landing-preview.png" alt="Beranda Utama Masjid Nurul Iman" width="920">
+</p>
+
+---
+
 ## ✨ Fitur Utama (Core Features)
 
 ### 🧑‍💻 Halaman Publik (Frontend / Landing Page)
