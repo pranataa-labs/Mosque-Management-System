@@ -17,6 +17,17 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Obfuscated Admin Route Prefix
+    |--------------------------------------------------------------------------
+    |
+    | Prefix route untuk modul admin agar tidak mudah ditebak bot/attacker.
+    | Dapat diubah melalui variabel lingkungan ADMIN_PREFIX di .env.
+    |
+    */
+    'admin_prefix' => env('ADMIN_PREFIX', 'masjid-portal-mgmt'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Environment
     |--------------------------------------------------------------------------
     |

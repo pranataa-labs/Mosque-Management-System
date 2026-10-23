@@ -48,6 +48,8 @@ Aplikasi SIMasjid dibangun dengan standar praktik terbaik arsitektur Laravel unt
    - Penggunaan arsitektur *Eloquent ORM* dari Laravel menjamin 100% semua variabel input (termasuk formulir pencarian) ter-sanitasi secara otomatis (melalui implementasi PDO *Parameter Binding*), membuat sistem mustahil diserang melalui injeksi SQL.
 4. **Proteksi Akses (Authentication & Rate Limiting)**
    Modul masuk (*Login*) diawasi dengan *Rate Limiting* yang ketat (membatasi jumlah percobaan *login* yang salah dalam waktu tertentu) untuk memblokir teknik serangan peretasan tipe *Brute-Force*.
+5. **Route Obfuscation & Panel Hardening (Anti-Scanning)**
+   URL modul administratif tidak menggunakan path statis yang mudah ditebak (`/admin`). Prefix dikonfigurasi melalui environment variable `ADMIN_PREFIX` di `.env` (default: `masjid-portal-mgmt`). Akses ke URL prediktif lama (`/admin/artikel`, `/admin/keuangan`, dll) otomatis merespon dengan status **HTTP 404 Not Found**, menyamarkan modul admin dari bot scanner dan upaya brute-force.
 
 ---
 
