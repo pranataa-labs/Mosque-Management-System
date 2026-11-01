@@ -1,5 +1,7 @@
 # 🕌 Mosque Management System (SIMasjid)
 
+[`laravel`](https://github.com/topics/laravel) • [`tailwind`](https://github.com/topics/tailwind) • [`mosque-management`](https://github.com/topics/mosque-management) • [`information-system`](https://github.com/topics/information-system) • [`financial-transparency`](https://github.com/topics/financial-transparency) • [`mysql`](https://github.com/topics/mysql)
+
 ![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
